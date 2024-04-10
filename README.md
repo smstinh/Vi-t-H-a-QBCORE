@@ -1,6 +1,6 @@
 # Viet-Hoa-QBCORE
 Đây Là Font Việt Hóa Của QBCORE
-- Bước 1 : Mở qb-core/client/functions.lua
+# Bước 1 : Mở qb-core/client/functions.lua
   + Dan Muc Sau Day Vao
    -- FONT VIỆT HÓA 
 Citizen.CreateThread(function()
@@ -17,6 +17,11 @@ function QBCore.Functions.FloatingNotification(msg, x,y,z)
     BeginTextCommandDisplayHelp('FloatingNotification')
     EndTextCommandDisplayHelp(2, false, false, -1)
 end
-- Bước 2 : Trong Thư Mục qb-core Tạo Một Thư Mục Có Tên "stream" Và Dán Font Có Đuôi gfx Trong Đây Để Chạy KHai Báo
+# Bước 2 : Trong Thư Mục qb-core Tạo Một Thư Mục Có Tên "stream" Và Dán Font Có Đuôi gfx Trong Đây Để Chạy KHai Báo
 - Lưu Ý : Nếu Font Vẫn Lỗi Vui Lòng Thêm "<FONT FACE = 'Baloo Paaji 2 SemiBold'>" Đây Đọc Mã
           + Có Thể Áp Dụng Cho Cả ESX
+  # Ghi Chú : Có Thể Áp Dụng Cho Cả CSS
+  # Bạn Cần Khai Báo Link Dẫn Của Font
+  - @import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@600&display=swap');
+  - Thay Thế Các Font-Family Thành : font-family: 'Baloo Paaji 2', cursive;
+  
